@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import Characters from './Characters';
 import Houses from './Houses';
+import Books from './Books';
 
 const Display = (props) => {
     if (props.category === 'characters'){
@@ -19,7 +20,7 @@ const Display = (props) => {
     }else if (props.category === 'books'){
         return (
             <div>
-                books component here
+                <Books />
             </div>
         );
     }
