@@ -84,9 +84,14 @@ p {
   font-size: 1.4rem;
 }
 
+
 .App {
   text-align: center;
+  min-height: 900px;
+  background-image: url(got-map.jpg);
 }
+
+
 
 .header{
   width:100%;
@@ -112,10 +117,17 @@ p {
   min-height: 150px;
   padding: 10px;
   margin: 5px;
-  border: 2px solid black;
+  background: #800000;
+  color:  #cccccc;
+  border: 2px solid #24478f;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 
+}
+
+.card h3{
+  text-decoration: underline;
+  
 }
